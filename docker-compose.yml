@@ -76,22 +76,7 @@ services:
       timeout: 5s
       retries: 5
 
-  # ============ REDIS SERVICE ============
-  redis:
-    image: redis:7-alpine
-    container_name: agenticai-redis
-    ports:
-      - "6379:6379"
-    volumes:
-      - redis_data:/data
-    networks:
-      - agenticai-network
-    restart: unless-stopped
-    healthcheck:
-      test: ["CMD", "redis-cli", "ping"]
-      interval: 10s
-      timeout: 5s
-      retries: 5
+  
 
   
 
