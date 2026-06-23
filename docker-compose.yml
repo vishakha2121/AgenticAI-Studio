@@ -399,12 +399,6 @@ docker-compose -f docker-compose.yml -f docker-compose.override.yml up
 docker-compose up -d db redis
 docker-compose up -d backend
 
-# Run database migrations
-docker-compose exec backend alembic upgrade head
-
-# Create a new migration
-docker-compose exec backend alembic revision --autogenerate -m "Migration message"
-
 
 
 
