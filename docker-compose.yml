@@ -426,8 +426,3 @@ curl http://localhost:5000/health
 # Test frontend
 curl http://localhost:3000
 
-# Test database connection
-docker-compose exec db psql -U postgres -d agenticai -c "SELECT version();"
-
-# Test Redis
-docker-compose exec redis redis-cli ping
