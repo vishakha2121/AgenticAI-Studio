@@ -129,12 +129,7 @@ services:
     profiles:
       - devtools
 
-# ============ VOLUMES ============
-volumes:
-  postgres_data:
-    driver: local
-  redis_data:
-    driver: local
+
 
 
 
