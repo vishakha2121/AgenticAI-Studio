@@ -278,14 +278,6 @@ services:
       timeout: 5s
       retries: 5
 
-  redis:
-    image: redis:7-alpine
-    container_name: agenticai-redis-prod
-    volumes:
-      - redis_data_prod:/data
-    networks:
-      - agenticai-network
-    restart: always
 
 
 
