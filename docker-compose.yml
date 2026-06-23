@@ -260,23 +260,6 @@ services:
       - agenticai-network
     restart: always
 
-  db:
-    image: postgres:15-alpine
-    container_name: agenticai-db-prod
-    environment:
-      - POSTGRES_USER=${DB_USER}
-      - POSTGRES_PASSWORD=${DB_PASSWORD}
-      - POSTGRES_DB=${DB_NAME}
-    volumes:
-      - postgres_data_prod:/var/lib/postgresql/data
-    networks:
-      - agenticai-network
-    restart: always
-    healthcheck:
-      test: ["CMD-SHELL", "pg_isready -U ${DB_USER}"]
-      interval: 10s
-      timeout: 5s
-      retries: 5
 
 
 
