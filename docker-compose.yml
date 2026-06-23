@@ -382,15 +382,7 @@ docker-compose logs -f db
 # Rebuild a specific service
 docker-compose up -d --build backend
 
-# Access container shell
-docker-compose exec backend bash
-docker-compose exec frontend sh
 
-# Check container status
-docker-compose ps
-
-# View resource usage
-docker stats
 
 
 
