@@ -47,13 +47,7 @@ services:
       - /app/node_modules
     depends_on:
       - backend
-    networks:
-      - agenticai-network
-    restart: unless-stopped
-    command: npm run dev -- --host 0.0.0.0
-
-  # ============ DATABASE SERVICE ============
-  db:
+  
    
 
   
