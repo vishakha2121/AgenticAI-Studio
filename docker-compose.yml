@@ -334,13 +334,6 @@ services:
       - REACT_APP_ENVIRONMENT=development
     command: npm run dev -- --host 0.0.0.0
 
-    # Database
-DB_USER=postgres
-DB_PASSWORD=postgres
-DB_NAME=agenticai
-DATABASE_URL=postgresql://postgres:postgres@db:5432/agenticai
-
-
 
 
 
