@@ -411,14 +411,7 @@ docker-compose -f docker-compose.prod.yml up -d
 # Scale services
 docker-compose -f docker-compose.prod.yml up -d --scale backend=3
 
-# Check logs
-docker-compose -f docker-compose.prod.yml logs -f
 
-# Restart service
-docker-compose -f docker-compose.prod.yml restart backend
-
-# Check all containers are running
-docker-compose ps
 
 
 
