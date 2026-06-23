@@ -420,9 +420,5 @@ docker-compose -f docker-compose.prod.yml restart backend
 # Check all containers are running
 docker-compose ps
 
-# Test backend API
-curl http://localhost:5000/health
 
-# Test frontend
-curl http://localhost:3000
 
