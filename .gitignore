@@ -1,0 +1,611 @@
+# ============================================
+# Python / Backend
+# ============================================
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+test-reports/
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff:
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Flask stuff:
+instance/
+.webassets-cache
+
+# Scrapy stuff:
+.scrapy
+
+# Sphinx documentation
+docs/_build/
+
+# PyBuilder
+target/
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# IPython
+profile_default/
+ipython_config.py
+
+# pyenv
+.python-version
+
+# pipenv
+Pipfile.lock
+
+# poetry
+poetry.lock
+
+# pdm
+.pdm.toml
+
+# PEP 582
+__pypackages__/
+
+# Celery stuff
+celerybeat-schedule
+celerybeat.pid
+
+# SageMath parsed files
+*.sage.py
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+pythonenv*
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# pytype static type analyzer
+.pytype/
+
+# Cython debug symbols
+cython_debug/
+
+# ============================================
+# Node.js / Frontend
+# ============================================
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Dependency directories
+node_modules/
+jspm_packages/
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Optional stylelint cache
+.stylelintcache
+
+# Microbundle cache
+.rpt2_cache/
+.rts2_cache_cjs/
+.rts2_cache_es/
+.rts2_cache_umd/
+
+# Optional REPL history
+.node_repl_history
+
+# Output of 'npm pack'
+*.tgz
+
+# Yarn Integrity file
+.yarn-integrity
+
+# dotenv environment variable files
+.env
+.env.development.local
+.env.test.local
+.env.production.local
+.env.local
+
+# parcel-bundler cache
+.cache
+.parcel-cache
+
+# Next.js build output
+.next
+out
+
+# Nuxt.js build / generate output
+.nuxt
+dist
+
+# Gatsby files
+.cache/
+public
+
+# Storybook build outputs
+out/
+storybook-static
+
+# Temporary folders
+tmp/
+temp/
+
+# Vite
+.vite
+
+# ============================================
+# React / Frontend Specific
+# ============================================
+
+# Production build
+/build
+/dist
+
+# Testing
+/coverage
+
+# Dependency directories
+/node_modules
+
+# TypeScript
+*.tsbuildinfo
+
+# ============================================
+# Docker
+# ============================================
+
+# Docker files that should be ignored
+docker-compose.override.yml
+docker-compose.override.yaml
+*.dockerignore
+
+# Docker volumes
+volumes/
+data/
+postgres_data/
+redis_data/
+mysql_data/
+mongodb_data/
+
+# ============================================
+# Database
+# ============================================
+
+# SQLite
+*.db
+*.sqlite
+*.sqlite3
+*.db-journal
+
+# PostgreSQL
+*.pgdata
+*.pgsql
+*.backup
+*.dump
+
+# MySQL
+*.ibd
+*.frm
+*.myd
+*.myi
+
+# ============================================
+# IDE / Editor
+# ============================================
+
+# Visual Studio Code
+.vscode/
+*.code-workspace
+.vscode-test/
+.vscode/settings.json
+.vscode/tasks.json
+.vscode/launch.json
+.vscode/extensions.json
+*.code-snippets
+
+# Visual Studio
+*.vs/
+*.vssettings
+*.vscode
+
+# IntelliJ IDEA / WebStorm / PyCharm
+.idea/
+*.iml
+*.iws
+*.ipr
+.idea_modules/
+out/
+*.swp
+*.swo
+*~
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+.sublime/
+
+# Vim
+*.swp
+*.swo
+*~
+.vimrc
+.vim/
+.undo/
+.nvim/
+
+# Emacs
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+*.elc
+auto-save-list
+tramp
+.\#*
+
+# Eclipse
+.classpath
+.project
+.settings/
+.metadata/
+bin/
+tmp/
+*.tmp
+*.bak
+
+# ============================================
+# OS / System
+# ============================================
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msm
+*.msp
+*.lnk
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# Linux
+*~
+.directory
+*.pid
+*.lock
+
+# ============================================
+# Logs / Temporary Files
+# ============================================
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.pm2/
+*.pid
+*.seed
+*.pid.lock
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.temp
+*.cache
+*.bak
+*.backup
+*.old
+*.orig
+
+# ============================================
+# Security / Secrets
+# ============================================
+
+# Environment variables
+.env
+.env.*
+!.env.example
+!.env.template
+
+# Secrets
+*.pem
+*.key
+*.crt
+*.csr
+*.p12
+*.pfx
+*.jks
+*.keystore
+*.truststore
+*.srl
+*.der
+*.cer
+*.p7b
+*.p7c
+*.p7s
+*.p7r
+*.spc
+
+# API keys
+*secret*
+*key*
+*password*
+*credential*
+*private*
+*access_token*
+*refresh_token*
+*.token
+*.credentials
+
+# ============================================
+# Terraform / Infrastructure
+# ============================================
+
+*.tfstate
+*.tfstate.*
+.terraform/
+*.tfvars
+*.tfvars.json
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+.terraform.lock.hcl
+
+# ============================================
+# Kubernetes
+# ============================================
+
+*.kubeconfig
+*.kubeconfig.*
+*.kubecfg
+*.kubecfg.*
+kubeconfig
+kubeconfig.*
+*.k8s.local
+*.k8s.local.*
+
+# ============================================
+# GitHub / CI-CD
+# ============================================
+
+.github/
+.ssh/
+.github/workflows/*.local.yml
+.github/CODEOWNERS
+
+# ============================================
+# Project Specific
+# ============================================
+
+# Backend specific
+backend/.env
+backend/.env.local
+backend/.env.*.local
+backend/instance/
+backend/migrations/versions/*.py
+!backend/migrations/versions/__init__.py
+backend/*.pyc
+backend/__pycache__/
+backend/venv/
+backend/env/
+backend/.pytest_cache/
+backend/.coverage
+backend/htmlcov/
+
+# Frontend specific
+frontend/.env
+frontend/.env.local
+frontend/.env.*.local
+frontend/node_modules/
+frontend/dist/
+frontend/build/
+frontend/.cache/
+frontend/.parcel-cache/
+frontend/.vite/
+frontend/.storybook/out/
+frontend/coverage/
+
+# Database files
+database/*.sqlite
+database/*.db
+database/backup/
+database/data/
+
+# Docker volumes
+volumes/
+data/
+postgres_data/
+redis_data/
+
+# ============================================
+# Documentation / Archive
+# ============================================
+
+*.zip
+*.tar.gz
+*.rar
+*.7z
+*.iso
+*.dmg
+
+# ============================================
+# Everything Else
+# ============================================
+
+# Misc
+*.orig
+*.rej
+*.patch
+*.diff
+*.log
+*.out
+*.pid
+*.seed
+*.lock
+*.pid.lock
+*.pem
+*.key
+*.crt
+*.csr
+*.p12
+*.pfx
+*.jks
+*.keystore
+*.truststore
+*.srl
+*.der
+*.cer
+*.p7b
+*.p7c
+*.p7s
+*.p7r
+*.spc
+*.bak
+*.backup
+*.old
+*.orig
+*.rej
+*.patch
+*.diff
+*.log
+*.out
+*.pid
+*.seed
+*.lock
+*.pid.lock
+*.pem
+*.key
+*.crt
+*.csr
+*.p12
+*.pfx
+*.jks
+*.keystore
+*.truststore
+*.srl
+*.der
+*.cer
+*.p7b
+*.p7c
+*.p7s
+*.p7r
+*.spc
+*.bak
+*.backup
+*.old
+*.orig
+*.rej
+*.patch
+*.diff
+*.log
+*.out
+*.pid
+*.seed
+*.lock
+*.pid.lock
+
+# ============================================
+# Ensure these files are NOT ignored
+# ============================================
+
+# !.env.example
+# !.env.template
+# !.env.sample
+# !.gitkeep
