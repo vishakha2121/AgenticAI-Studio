@@ -593,19 +593,4 @@ redis_data/
 *.orig
 *.rej
 *.patch
-*.diff
-*.log
-*.out
-*.pid
-*.seed
-*.lock
-*.pid.lock
-
-# ============================================
-# Ensure these files are NOT ignored
-# ============================================
-
-# !.env.example
-# !.env.template
-# !.env.sample
-# !.gitkeep
+*.
