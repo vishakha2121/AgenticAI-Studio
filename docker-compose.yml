@@ -392,11 +392,7 @@ docker-compose ps
 # View resource usage
 docker stats
 
-# Start with development configuration
-docker-compose -f docker-compose.yml -f docker-compose.override.yml up
 
-# 
-docker-compose up -d backend
 
 
 
