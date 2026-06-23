@@ -17,18 +17,7 @@ services:
       - JWT_SECRET=${JWT_SECRET}
       - ENVIRONMENT=development
       - CORS_ORIGINS=http://localhost:3000,http://localhost:5173
-    volumes:
-      - ./backend:/app
-      - /app/__pycache__
-      - /app/.pytest_cache
-    depends_on:
-      - db
-      - redis
-    networks:
-      - agenticai-network
-    restart: unless-stopped
-    command: uvicorn app.main:app --host 0.0.0.0 --port 5000 --reload
-
+  
  
   
    
