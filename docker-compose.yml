@@ -405,13 +405,6 @@ docker-compose exec backend alembic upgrade head
 # Create a new migration
 docker-compose exec backend alembic revision --autogenerate -m "Migration message"
 
-# Start production environment
-docker-compose -f docker-compose.prod.yml up -d
-
-# Scale services
-docker-compose -f docker-compose.prod.yml up -d --scale backend=3
-
-
 
 
 
