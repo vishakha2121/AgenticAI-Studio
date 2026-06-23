@@ -223,17 +223,7 @@ services:
     container_name: agenticai-backend-prod
     ports:
       - "5000:5000"
-    environment:
-      - DATABASE_URL=postgresql://${DB_USER}:${DB_PASSWORD}@db:5432/${DB_NAME}
-      - REDIS_URL=redis://redis:6379
-      - GEMINI_API_KEY=${GEMINI_API_KEY}
-      - SECRET_KEY=${SECRET_KEY}
-      - JWT_SECRET=${JWT_SECRET}
-      - ENVIRONMENT=production
-      - CORS_ORIGINS=${CORS_ORIGINS}
-  
-
-
+   
 
 
 
