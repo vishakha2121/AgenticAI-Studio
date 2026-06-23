@@ -395,8 +395,7 @@ docker stats
 # Start with development configuration
 docker-compose -f docker-compose.yml -f docker-compose.override.yml up
 
-# Start only specific services
-docker-compose up -d db redis
+# 
 docker-compose up -d backend
 
 
