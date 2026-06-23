@@ -374,13 +374,6 @@ docker-compose down -v
 # View logs
 docker-compose logs -f
 
-# View logs for specific service
-docker-compose logs -f backend
-docker-compose logs -f frontend
-docker-compose logs -f db
-
-# Rebuild a specific service
-docker-compose up -d --build backend
 
 
 
