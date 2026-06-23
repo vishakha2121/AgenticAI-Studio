@@ -215,14 +215,6 @@ CMD ["serve", "-s", "dist", "-l", "3000"]
 
 version: '3.8'
 
-services:
-  backend:
-    build:
-      context: ./backend
-      dockerfile: Dockerfile
-    container_name: agenticai-backend-prod
-    ports:
-      - "5000:5000"
    
 
 
