@@ -149,7 +149,6 @@ cd AgenticAI-Studio
 # Create virtual environment
 python -m venv venv
 
-# Activate virtual environment
 # On Windows:
 venv\Scripts\activate
 # On Mac/Linux:
