@@ -231,13 +231,7 @@ services:
       - JWT_SECRET=${JWT_SECRET}
       - ENVIRONMENT=production
       - CORS_ORIGINS=${CORS_ORIGINS}
-    depends_on:
-      - db
-      - redis
-    networks:
-      -
-
-
+  
 
 
 
