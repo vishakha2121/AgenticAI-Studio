@@ -136,14 +136,7 @@ volumes:
   redis_data:
     driver: local
 
-# ============ NETWORKS ============
-networks:
-  agenticai-network:
-    driver: bridge
-    name: agenticai-network
 
-    # Use Python 3.10 slim image
-FROM python:3.10-slim
 
 
 
