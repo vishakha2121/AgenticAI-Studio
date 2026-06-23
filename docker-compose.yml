@@ -304,20 +304,7 @@ services:
       - agenticai-network
     restart: always
 
-volumes:
-  postgres_data_prod:
-    driver: local
-  redis_data_prod:
-    driver: local
 
-networks:
-  agenticai-network:
-    driver: bridge
-
-    version: '3.8'
-
-
- 
 
 
 
