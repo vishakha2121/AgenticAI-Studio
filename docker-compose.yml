@@ -371,8 +371,6 @@ docker-compose down
 # Stop and remove volumes
 docker-compose down -v
 
-# View logs
-docker-compose logs -f
 
 
 
