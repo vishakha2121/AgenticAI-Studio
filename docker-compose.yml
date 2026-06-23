@@ -243,22 +243,7 @@ services:
       timeout: 10s
       retries: 3
 
-  frontend:
-    build:
-      context: ./frontend
-      dockerfile: Dockerfile
-    container_name: agenticai-frontend-prod
-    ports:
-      - "3000:3000"
-    environment:
-      - REACT_APP_API_URL=${REACT_APP_API_URL}
-      - REACT_APP_WEBSOCKET_URL=${REACT_APP_WEBSOCKET_URL}
-      - REACT_APP_ENVIRONMENT=production
-    depends_on:
-      - backend
-    networks:
-      - agenticai-network
-    restart: always
+ tart: always
 
 
 
